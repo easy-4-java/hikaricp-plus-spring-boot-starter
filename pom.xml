@@ -13,7 +13,7 @@
 	<groupId>com.github.hiwepy</groupId>
 	<artifactId>hikaricp-plus-spring-boot-starter</artifactId>
 	<description>Spring Boot Starter For HikariCP</description>
-	<version>3.3.x.20241003.RELEASE</version>
+	<version>3.3.x.20250712-SNAPSHOT</version>
 	<name>${project.groupId}:${project.artifactId}</name>
 	<url>https://github.com/hiwepy/${project.artifactId}</url>
 	<packaging>jar</packaging>
@@ -384,8 +384,9 @@
 		<maven-surefire-plugin.version>3.5.0</maven-surefire-plugin.version>
 		<maven-war-plugin.version>3.4.0</maven-war-plugin.version>
 		<!-- Dependency versions -->
+		<commons-lang3.version>3.18.0</commons-lang3.version>
 		<prometheus.version>0.16.0</prometheus.version>
-		<spring-biz.version>1.1.1.RELEASE</spring-biz.version>
+		<spring-biz.version>3.3.x.20241020.RELEASE</spring-biz.version>
 	</properties>
 
 	<dependencyManagement>
@@ -400,7 +401,7 @@
 			<dependency>
 				<groupId>io.dropwizard.metrics</groupId>
 				<artifactId>metrics-core</artifactId>
-				<version>4.2.28</version>
+				<version>4.2.33</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

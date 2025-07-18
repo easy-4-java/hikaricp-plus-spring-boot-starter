@@ -10,13 +10,11 @@ import org.springframework.context.annotation.Configuration;
  * @author 		： <a href="https://github.com/hiwepy">hiwepy</a>
  */
 @Configuration
-/*@ConditionalOnClass({ com.zaxxer.hikari.HikariDataSource.class,
-	org.apache.shardingsphere.shardingjdbc.api.MasterSlaveDataSourceFactory.class })*/
 @ConditionalOnProperty(prefix = HikaricpProperties.PREFIX, name = "enabled", havingValue = "true", matchIfMissing = true)
 @EnableConfigurationProperties({ HikaricpProperties.class, DataSourceProperties.class })
 @AutoConfigureBefore(name = {
 	"org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration",
-	"com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration"
+	"com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration"
 })
 public class HikaricpShardingJdbcAutoConfiguration {
 	
