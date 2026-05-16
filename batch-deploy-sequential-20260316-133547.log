@@ -1,0 +1,256 @@
+[hikaricp-plus-spring-boot-starter/2.3.x] 失败 - 分支切换失败
+[hikaricp-plus-spring-boot-starter/2.7.x] 失败 - 分支切换失败
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------< [0;36mio.github.hiwepy:hikaricp-plus-spring-boot-starter[0;1m >---------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:hikaricp-plus-spring-boot-starter 4.0.x.20251227-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/com/zaxxer/HikariCP/7.0.2/HikariCP-7.0.2.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/com/zaxxer/HikariCP/7.0.2/HikariCP-7.0.2.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/micrometer/micrometer-core/1.16.1/micrometer-core-1.16.1.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/micrometer/micrometer-core/1.16.1/micrometer-core-1.16.1.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-core/1.4.3/prometheus-metrics-core-1.4.3.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-core/1.4.3/prometheus-metrics-core-1.4.3.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/client_java/1.4.3/client_java-1.4.3.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/client_java/1.4.3/client_java-1.4.3.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/opentelemetry/instrumentation/opentelemetry-instrumentation-bom-alpha/2.16.0-alpha/opentelemetry-instrumentation-bom-alpha-2.16.0-alpha.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/opentelemetry/instrumentation/opentelemetry-instrumentation-bom-alpha/2.16.0-alpha/opentelemetry-instrumentation-bom-alpha-2.16.0-alpha.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/opentelemetry/opentelemetry-bom/1.50.0/opentelemetry-bom-1.50.0.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/opentelemetry/opentelemetry-bom/1.50.0/opentelemetry-bom-1.50.0.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/opentelemetry/opentelemetry-bom-alpha/1.50.0-alpha/opentelemetry-bom-alpha-1.50.0-alpha.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/opentelemetry/opentelemetry-bom-alpha/1.50.0-alpha/opentelemetry-bom-alpha-1.50.0-alpha.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/opentelemetry/instrumentation/opentelemetry-instrumentation-bom/2.16.0/opentelemetry-instrumentation-bom-2.16.0.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/opentelemetry/instrumentation/opentelemetry-instrumentation-bom/2.16.0/opentelemetry-instrumentation-bom-2.16.0.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-model/1.4.3/prometheus-metrics-model-1.4.3.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-model/1.4.3/prometheus-metrics-model-1.4.3.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-config/1.4.3/prometheus-metrics-config-1.4.3.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-config/1.4.3/prometheus-metrics-config-1.4.3.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-tracer-initializer/1.4.3/prometheus-metrics-tracer-initializer-1.4.3.pom
+Progress (1): 1.4 kB
+                    
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-tracer-initializer/1.4.3/prometheus-metrics-tracer-initializer-1.4.3.pom (1.4 kB at 1.9 kB/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-tracer/1.4.3/prometheus-metrics-tracer-1.4.3.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-tracer/1.4.3/prometheus-metrics-tracer-1.4.3.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-tracer-common/1.4.3/prometheus-metrics-tracer-common-1.4.3.pom
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-tracer-common/1.4.3/prometheus-metrics-tracer-common-1.4.3.pom (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-tracer-otel/1.4.3/prometheus-metrics-tracer-otel-1.4.3.pom
+Progress (1): 1.2 kB
+                    
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-tracer-otel/1.4.3/prometheus-metrics-tracer-otel-1.4.3.pom (1.2 kB at 2.1 kB/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-tracer-otel-agent/1.4.3/prometheus-metrics-tracer-otel-agent-1.4.3.pom
+Progress (1): 2.2 kB
+                    
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-tracer-otel-agent/1.4.3/prometheus-metrics-tracer-otel-agent-1.4.3.pom (2.2 kB at 4.5 kB/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/dropwizard/metrics/metrics-core/4.2.33/metrics-core-4.2.33.pom
+Progress (1): 2.6 kB
+                    
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/dropwizard/metrics/metrics-core/4.2.33/metrics-core-4.2.33.pom (2.6 kB at 3.2 kB/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/dropwizard/metrics/metrics-parent/4.2.33/metrics-parent-4.2.33.pom
+Progress (1): 2.6 kB
+Progress (1): 5.4 kB
+Progress (1): 8.3 kB
+Progress (1): 11 kB 
+Progress (1): 15 kB
+Progress (1): 18 kB
+Progress (1): 21 kB
+                   
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/dropwizard/metrics/metrics-parent/4.2.33/metrics-parent-4.2.33.pom (21 kB at 42 kB/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/com/zaxxer/HikariCP/7.0.2/HikariCP-7.0.2.jar
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-config/1.4.3/prometheus-metrics-config-1.4.3.jar
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-model/1.4.3/prometheus-metrics-model-1.4.3.jar
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-core/1.4.3/prometheus-metrics-core-1.4.3.jar
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/micrometer/micrometer-core/1.16.1/micrometer-core-1.16.1.jar
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/com/zaxxer/HikariCP/7.0.2/HikariCP-7.0.2.jar (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-tracer-initializer/1.4.3/prometheus-metrics-tracer-initializer-1.4.3.jar
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-config/1.4.3/prometheus-metrics-config-1.4.3.jar (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-tracer-common/1.4.3/prometheus-metrics-tracer-common-1.4.3.jar
+Progress (1): 2.6 kB
+Progress (1): 4.0 kB
+                    
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-model/1.4.3/prometheus-metrics-model-1.4.3.jar (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-tracer-otel/1.4.3/prometheus-metrics-tracer-otel-1.4.3.jar
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-tracer-common/1.4.3/prometheus-metrics-tracer-common-1.4.3.jar (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-tracer-otel-agent/1.4.3/prometheus-metrics-tracer-otel-agent-1.4.3.jar
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-core/1.4.3/prometheus-metrics-core-1.4.3.jar (0 B at 0 B/s)
+Downloading from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/dropwizard/metrics/metrics-core/4.2.33/metrics-core-4.2.33.jar
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-tracer-initializer/1.4.3/prometheus-metrics-tracer-initializer-1.4.3.jar (4.0 kB at 6.1 kB/s)
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/micrometer/micrometer-core/1.16.1/micrometer-core-1.16.1.jar (0 B at 0 B/s)
+Progress (1): 4.0 kB
+Progress (1): 4.4 kB
+Progress (2): 4.4 kB | 3.8 kB
+Progress (2): 4.4 kB | 7.9 kB
+Progress (2): 4.4 kB | 11 kB 
+Progress (2): 4.4 kB | 14 kB
+Progress (2): 4.4 kB | 18 kB
+Progress (2): 4.4 kB | 22 kB
+Progress (2): 4.4 kB | 25 kB
+Progress (2): 4.4 kB | 28 kB
+Progress (2): 4.4 kB | 32 kB
+Progress (2): 4.4 kB | 36 kB
+Progress (2): 4.4 kB | 39 kB
+Progress (2): 4.4 kB | 43 kB
+Progress (2): 4.4 kB | 46 kB
+Progress (2): 4.4 kB | 49 kB
+Progress (2): 4.4 kB | 51 kB
+Progress (2): 4.4 kB | 54 kB
+Progress (2): 4.4 kB | 57 kB
+Progress (2): 4.4 kB | 60 kB
+Progress (2): 4.4 kB | 63 kB
+Progress (2): 4.4 kB | 67 kB
+Progress (2): 4.4 kB | 71 kB
+Progress (3): 4.4 kB | 71 kB | 3.9 kB
+Progress (3): 4.4 kB | 75 kB | 3.9 kB
+Progress (3): 4.4 kB | 75 kB | 4.1 kB
+Progress (3): 4.4 kB | 79 kB | 4.1 kB
+Progress (3): 4.4 kB | 83 kB | 4.1 kB
+Progress (3): 4.4 kB | 87 kB | 4.1 kB
+Progress (3): 4.4 kB | 91 kB | 4.1 kB
+Progress (3): 4.4 kB | 94 kB | 4.1 kB
+Progress (3): 4.4 kB | 96 kB | 4.1 kB
+Progress (3): 4.4 kB | 100 kB | 4.1 kB
+Progress (3): 4.4 kB | 105 kB | 4.1 kB
+Progress (3): 4.4 kB | 109 kB | 4.1 kB
+Progress (3): 4.4 kB | 113 kB | 4.1 kB
+Progress (3): 4.4 kB | 117 kB | 4.1 kB
+Progress (3): 4.4 kB | 121 kB | 4.1 kB
+Progress (3): 4.4 kB | 125 kB | 4.1 kB
+Progress (3): 4.4 kB | 129 kB | 4.1 kB
+Progress (3): 4.4 kB | 132 kB | 4.1 kB
+                                      
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-tracer-otel/1.4.3/prometheus-metrics-tracer-otel-1.4.3.jar (4.1 kB at 3.9 kB/s)
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/dropwizard/metrics/metrics-core/4.2.33/metrics-core-4.2.33.jar (132 kB at 123 kB/s)
+Downloaded from aiban-tianyin-core: https://aiban-maven.pkg.coding.net/repository/tianyin/core/io/prometheus/prometheus-metrics-tracer-otel-agent/1.4.3/prometheus-metrics-tracer-otel-agent-1.4.3.jar (4.4 kB at 4.0 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.4.0:clean[m [1m(default-clean)[m @ [36mhikaricp-plus-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/wandl/workspaces/workspace-ddd4j/workspace-ddd4j-boot-starters/hikaricp-plus-spring-boot-starter/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m @ [36mhikaricp-plus-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  7.241 s
+[[1;34mINFO[m] Finished at: 2026-03-16T13:59:49+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m on project [36mhikaricp-plus-spring-boot-starter[m: [1;31m[m
+[[1;31mERROR[m] [1;31mRule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion failed with message:[m
+[[1;31mERROR[m] [1;31mYou are running an older version of Maven. This application requires at least Maven 3.9.9.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[hikaricp-plus-spring-boot-starter/3.0.x] 失败 - 查看日志
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------< [0;36mio.github.hiwepy:hikaricp-plus-spring-boot-starter[0;1m >---------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:hikaricp-plus-spring-boot-starter 4.0.x.20251227-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.4.0:clean[m [1m(default-clean)[m @ [36mhikaricp-plus-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m @ [36mhikaricp-plus-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.259 s
+[[1;34mINFO[m] Finished at: 2026-03-16T13:59:49+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m on project [36mhikaricp-plus-spring-boot-starter[m: [1;31m[m
+[[1;31mERROR[m] [1;31mRule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion failed with message:[m
+[[1;31mERROR[m] [1;31mYou are running an older version of Maven. This application requires at least Maven 3.9.9.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[hikaricp-plus-spring-boot-starter/3.1.x] 失败 - 查看日志
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------< [0;36mio.github.hiwepy:hikaricp-plus-spring-boot-starter[0;1m >---------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:hikaricp-plus-spring-boot-starter 4.0.x.20251227-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.4.0:clean[m [1m(default-clean)[m @ [36mhikaricp-plus-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m @ [36mhikaricp-plus-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.261 s
+[[1;34mINFO[m] Finished at: 2026-03-16T13:59:50+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m on project [36mhikaricp-plus-spring-boot-starter[m: [1;31m[m
+[[1;31mERROR[m] [1;31mRule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion failed with message:[m
+[[1;31mERROR[m] [1;31mYou are running an older version of Maven. This application requires at least Maven 3.9.9.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[hikaricp-plus-spring-boot-starter/3.2.x] 失败 - 查看日志
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------< [0;36mio.github.hiwepy:hikaricp-plus-spring-boot-starter[0;1m >---------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:hikaricp-plus-spring-boot-starter 4.0.x.20251227-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.4.0:clean[m [1m(default-clean)[m @ [36mhikaricp-plus-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m @ [36mhikaricp-plus-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.261 s
+[[1;34mINFO[m] Finished at: 2026-03-16T13:59:51+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m on project [36mhikaricp-plus-spring-boot-starter[m: [1;31m[m
+[[1;31mERROR[m] [1;31mRule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion failed with message:[m
+[[1;31mERROR[m] [1;31mYou are running an older version of Maven. This application requires at least Maven 3.9.9.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[hikaricp-plus-spring-boot-starter/3.3.x] 失败 - 查看日志
+[hikaricp-plus-spring-boot-starter/3.4.x] 失败 - 分支切换失败
+[hikaricp-plus-spring-boot-starter/3.5.x] 失败 - 分支切换失败
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------< [0;36mio.github.hiwepy:hikaricp-plus-spring-boot-starter[0;1m >---------[m
+[[1;34mINFO[m] [1mBuilding io.github.hiwepy:hikaricp-plus-spring-boot-starter 4.0.x.20251227-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.4.0:clean[m [1m(default-clean)[m @ [36mhikaricp-plus-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m @ [36mhikaricp-plus-spring-boot-starter[0;1m ---[m
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.255 s
+[[1;34mINFO[m] Finished at: 2026-03-16T13:59:51+08:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-enforcer-plugin:3.5.0:enforce[m [1m(default-cli)[m on project [36mhikaricp-plus-spring-boot-starter[m: [1;31m[m
+[[1;31mERROR[m] [1;31mRule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion failed with message:[m
+[[1;31mERROR[m] [1;31mYou are running an older version of Maven. This application requires at least Maven 3.9.9.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[hikaricp-plus-spring-boot-starter/4.0.x] 失败 - 查看日志
+[hikaricp-plus-spring-boot-starter/master] 失败 - 分支切换失败
