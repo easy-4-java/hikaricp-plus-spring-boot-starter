@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	
-	<groupId>com.github.hiwepy</groupId>
+	<groupId>io.github.hiwepy</groupId>
 	<artifactId>hikaricp-plus-spring-boot-starter</artifactId>
 	<description>Spring Boot Starter For HikariCP</description>
 	<version>1.0.8.RELEASE</version>
@@ -379,7 +379,7 @@
 		<dependencies>
 			<!-- https://mvnrepository.com/artifact/com.github.hiwepy/spring-biz -->
 			<dependency>
-			    <groupId>com.github.hiwepy</groupId>
+			    <groupId>io.github.hiwepy</groupId>
 			    <artifactId>spring-biz</artifactId>
 			    <version>${spring-biz.version}</version>
 			</dependency>
@@ -487,7 +487,7 @@
 			<artifactId>spring-aspects</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.github.hiwepy</groupId>
+			<groupId>io.github.hiwepy</groupId>
 			<artifactId>spring-biz</artifactId>
 		</dependency>
 
