@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.2.12</version>
+		<version>3.4.13</version>
 		<relativePath /> 
 	</parent>
 
 	<groupId>io.github.hiwepy</groupId>
 	<artifactId>hikaricp-plus-spring-boot-starter</artifactId>
 	<description>Spring Boot Starter For HikariCP</description>
-	<version>3.2.x.20260527-SNAPSHOT</version>
+	<version>3.4.x.20260527-SNAPSHOT</version>
 	<name>${project.groupId}:${project.artifactId}</name>
 	<url>https://github.com/hiwepy/${project.artifactId}</url>
 	<packaging>jar</packaging>
