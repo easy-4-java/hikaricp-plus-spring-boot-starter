@@ -25,7 +25,7 @@ import javax.sql.DataSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.biz.jdbc.DataSourceRoutingKeyHolder;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
+import org.springframework.boot.jdbc.autoconfigure.DataSourceProperties;
 import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 import org.springframework.util.ReflectionUtils;
 
@@ -44,13 +44,13 @@ public class DynamicRoutingDataSource extends AbstractRoutingDataSource {
 			"targetDataSources");
 	protected static Field resolvedDataSourcesField = ReflectionUtils.findField(DynamicRoutingDataSource.class,
 			"resolvedDataSources");
-	
+
 	@Override
 	protected Object determineCurrentLookupKey() {
 		 logger.info("Current DataSource is [{}]", DataSourceRoutingKeyHolder.getDataSourceKey());
 		return DataSourceRoutingKeyHolder.getDataSourceKey();
 	}
-	
+
 	public Map<Object, Object> getTargetDataSources() {
 		targetDataSourcesField.setAccessible(true);
 		Object targetDataSources = ReflectionUtils.getField(targetDataSourcesField, this);
@@ -64,75 +64,75 @@ public class DynamicRoutingDataSource extends AbstractRoutingDataSource {
 		resolvedDataSourcesField.setAccessible(false);
 		return (Map<Object, DataSource>) resolvedDataSources;
 	}
-	
+
 	public void setTargetDataSource(String name, DataSourceProperties basicProperties, HikaricpDataSourceProperties hikariProperties) {
 
 		lock.lock();
-		
+
 		try {
-			
+
 			//if not found prefix 'spring.datasource.hikari' jdbc properties ,'spring.datasource' prefix jdbc properties will be used.
 	        if (hikariProperties.getUsername() == null) {
-	        	hikariProperties.setUsername(basicProperties.determineUsername());
+			hikariProperties.setUsername(basicProperties.determineUsername());
 	        }
 	        if (hikariProperties.getPassword() == null) {
-	        	hikariProperties.setPassword(basicProperties.determinePassword());
+			hikariProperties.setPassword(basicProperties.determinePassword());
 	        }
 	        if (hikariProperties.getJdbcUrl() == null) {
-	        	hikariProperties.setJdbcUrl(basicProperties.determineUrl());
+			hikariProperties.setJdbcUrl(basicProperties.determineUrl());
 	        }
 	        if(hikariProperties.getDriverClassName() == null){
-	        	hikariProperties.setDriverClassName(basicProperties.determineDriverClassName());
+			hikariProperties.setDriverClassName(basicProperties.determineDriverClassName());
 	        }
-			
+
 			// 动态创建Hikari数据源
 			HikariDataSource targetDataSource = HikariDataSourceUtils.createDataSource(hikariProperties);
 
 			getTargetDataSources().put(name, targetDataSource);
-			
+
 			// reset resolvedDataSources
 			this.afterPropertiesSet();
-			
+
 		} finally {
             lock.unlock();
         }
-		
+
 	}
-	
+
 	public void setTargetDataSource(DataSourceProperties properties, HikaricpDataSourceProperties hikariProperties) {
 		this.setTargetDataSource(hikariProperties.getName(), properties, hikariProperties);
 	}
 
 	public void setNewTargetDataSources(Map<Object, Object> targetDataSources) {
-		
+
 		lock.lock();
-		
+
 		try {
-			
+
 			getTargetDataSources().putAll(targetDataSources);
 			// reset resolvedDataSources
 			this.afterPropertiesSet();
-			
+
 		} finally {
 	        lock.unlock();
 	    }
 	}
 
 	public void removeTargetDataSource(String name) {
-		
+
 		lock.lock();
-		
+
 		try {
-			
+
 			getTargetDataSources().remove(name);
 			// reset resolvedDataSources
 			this.afterPropertiesSet();
-		
+
 		} finally {
 	        lock.unlock();
 	    }
 	}
-	
+
 	@Override
 	public void afterPropertiesSet() {
 		super.afterPropertiesSet();
@@ -141,5 +141,5 @@ public class DynamicRoutingDataSource extends AbstractRoutingDataSource {
 			DataSourceRoutingKeyHolder.dataSourceKeys.add(lookupKey);
 		});
 	}
-	
+
 }
