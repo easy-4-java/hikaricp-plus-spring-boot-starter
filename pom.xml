@@ -423,7 +423,7 @@
         <dependencies>
             <!-- https://mvnrepository.com/artifact/com.github.hiwepy/spring-biz -->
             <dependency>
-                <groupId>io.github.hiwepy</groupId>
+                <groupId>com.github.hiwepy</groupId>
                 <artifactId>spring-biz</artifactId>
                 <version>${spring-biz.version}</version>
             </dependency>
@@ -542,7 +542,7 @@
         </dependency>
         <!-- Source: https://github.com/easy-4-java/spring-biz — easy4j spring-biz -->
         <dependency>
-            <groupId>io.github.hiwepy</groupId>
+            <groupId>com.github.hiwepy</groupId>
             <artifactId>spring-biz</artifactId>
         </dependency>
 
